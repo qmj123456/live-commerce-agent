@@ -1,0 +1,7 @@
+# Enable only after selectors and activity status have been calibrated.
+plans: []
+# - id: evening-01
+#   at: '2026-11-24T20:00:00+08:00'
+#   template_id: approved-template
+#   budget_cents: 1000
+#   fields: {prize: '已审批奖品', quantity: '1'}

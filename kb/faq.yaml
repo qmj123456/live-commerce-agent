@@ -1,0 +1,11 @@
+# Populate with merchant-approved facts. No sample prices or promises.
+entries: []
+# - id: sku-001-shipping
+#   product_id: sku-001
+#   intent: shipping
+#   question: 什么时候发货
+#   aliases: [多久发货, 发货时间]
+#   keywords: [发货, 多久发, 什么时候发]
+#   answer: <商家核验的完整答复>
+#   source: 商家发货规则
+#   valid_until: '2026-12-31T23:59:59+08:00'

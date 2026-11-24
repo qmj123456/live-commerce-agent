@@ -1,0 +1,26 @@
+comments: div[class*="commentItem"]
+nickname: '[class*="nickname"]'
+content: '[class*="description"]'
+reply: div[class*="iconWrapper"]
+input: textarea[placeholder*="回复观众"]
+send: '#input-comment-block-id [class*="inputSuffix-"]:text-is("发布")'
+own_marker: 主播我
+product_root: .rpa_lc__live-goods__goods-item:has([class*="coverTag-"]:text-is("讲解中"))
+product_id_attribute: data-rbd-draggable-id
+product_fields:
+  title: '[class*="rightContainer-"] [class*="title-"]'
+  selling_points: .rpa_lc__live-goods__goods-elastic [class*="text-"]
+  price: '[class*="dataItem-"]:has([class*="dataName-"]:has-text("到手价")) [class*="data-"]'
+  sold_stock: '[class*="dataItem-"]:has([class*="dataName-"]:has-text("售出/库存")) [class*="data-"]'
+  turnover: '[class*="dataItem-"]:has([class*="dataName-"]:has-text("成交金额")) [class*="data-"]'
+risk: ''
+bag_root: ''
+bag_create: ''
+bag_start: ''
+bag_submit: ''
+bag_fields: {}
+bag_cost: ''
+bag_cost_attribute: data-budget-cents
+bag_status_attribute: data-status
+bag_template_attribute: data-template-id
+bag_instance_attribute: data-activity-id
